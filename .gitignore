@@ -3,3 +3,22 @@
 
 # README.md 파일은 예외로 추적 허용
 !README.md
+
+# Local configuration and generated data
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+node_modules/
+.svelte-kit/
+build/
+dist/
+.data/
+models/
+*.safetensors
+*.ckpt
+*.pt
+*.pth
