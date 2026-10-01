@@ -1,1 +1,5 @@
-plan.md
+# 모든 .md 파일 추적 제외
+*.md
+
+# README.md 파일은 예외로 추적 허용
+!README.md
